@@ -60,6 +60,7 @@ function UpComingWebinars() {
                 </div>
                 <div className="mt-10">
                     <HoverEffect
+                        // key={featuredWebinars.length}
                         items={featuredWebinars.map(webinar => (
                             {
                                 title: webinar.title,
